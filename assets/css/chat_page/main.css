@@ -8,7 +8,7 @@ width: 100%;
 body
 {
 background-color: var(--chat-page-primary-bg-color);
-background-image: url(../../files/backgrounds/chat_page_bg.jpg);
+/*background-image: url(../../files/backgrounds/chat_page_bg.jpg);*/
 background-size: cover;
 background-position: center;
 overflow-x: hidden;

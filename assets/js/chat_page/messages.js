@@ -236,7 +236,13 @@ $("body").on('click', '.send_sticker', function(e) {
 
     send_message(content);
 });
+/* mosue over*/
 
+
+
+
+
+/**/
 $("body").on('click', '.add_emoji', function(e) {
     $('#message_editor').summernote('restoreRange');
     var emojiClass = 'emoji_icon emoji-'+$(this).attr('emoji');
@@ -1574,17 +1580,17 @@ $('body').on('change', '.main .chatbox .selector.select_item > input', function(
 });
 
 
-$('.main .chat_messages').on('click', '.message_reactions > .selection > ul > li', function(e) {
+$('.main .chat_messages').on('mouseenter', '.message_reactions > .selection > ul > li', function(e) {
     $('.main .chatbox > .contents > .chat_messages .message_reactions > .selection').addClass('d-none');
 });
 
-$('.main .chat_messages').on('click', '.message_reactions > .reactions > ul > li > .reaction', function(e) {
+$('.main .chat_messages').on('mouseenter', '.message_reactions > .reactions > ul > li > .reaction', function(e) {
 
     if ($(this).parent().parent().parent().parent().find('.selection').hasClass('d-none')) {
-        $('.main .chatbox > .contents > .chat_messages .message_reactions > .selection').addClass('d-none');
+        $('.main .chatbox > .contents > .chat_messages .message_reactions > .selection').addClass('reaction-react');
         $(this).parent().parent().parent().parent().find('.selection').removeClass('d-none');
     } else {
-        $('.main .chatbox > .contents > .chat_messages .message_reactions > .selection').addClass('d-none');
+        $('.main .chatbox > .contents > .chat_messages .message_reactions > .selection').addClass('reaction-react');
     }
 });
 

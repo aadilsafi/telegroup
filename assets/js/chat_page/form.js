@@ -39,7 +39,7 @@ $('body').on('click', '.load_form', function(e) {
 
 });
 $("body").on("click", ".load_form", function (e) { 
-    $('.main .formbox').addClass('slide-top');
+    //$('.main .formbox').addClass('slide-top');
 }),
 
 $('body').on('change', '.main .formbox .switch_form', function(e) {

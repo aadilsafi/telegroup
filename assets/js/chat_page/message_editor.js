@@ -145,6 +145,8 @@ var cancel_recording_button = function(context) {
 
 $(document).ready(function() {
 
+
+
     $('#message_editor').summernote({
         toolbar: [
             ['style', ['bold', 'italic', 'underline']],

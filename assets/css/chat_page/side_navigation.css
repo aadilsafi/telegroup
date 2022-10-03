@@ -50,6 +50,7 @@ width: 100%;
 flex: 1 0 auto;
 border-bottom: 1px solid var(--side-navigation-primary-border-color);
 }
+ 
 
 .main .side_navigation > .top > .logo
 {
@@ -89,6 +90,16 @@ flex: 1 1 auto;
 transition: 0.5s;
 overflow: hidden;
 height: 100%;
+}
+/*-------------ANIMATION CIDE M.X------------------ .side_navigation li*/
+
+
+/*Custom animation side nav menu*/
+.main .side_navigation .menu_items>li>.menu_item
+
+{
+  
+    
 }
 
 .main .side_navigation > .bottom

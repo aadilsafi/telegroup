@@ -3,7 +3,8 @@
 width: 20px;
 height: 20px;
 margin-right: 2px;
-display: inline-block;
+
+	display:inline-block;
 color: transparent;
 text-indent: -99999px;
 vertical-align: middle;
