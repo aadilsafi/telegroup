@@ -19824,9 +19824,7 @@ video::-webkit-media-text-track-display {
     background-color: #f5f5f5;
     border-color: #ddd;
     border-top-left-radius: 3px;
-    border-top-right-radius: 3px;
-
-    
+    border-top-right-radius: 3px
 }
 
 .note-btn-group {
@@ -20558,9 +20556,7 @@ a.note-dropdown-item:hover {
 }
 
 .note-editor .note-editing-area .note-editable {
-    outline: none;
-    background:white;
-    border-radius: 25px;
+    outline: none
 }
 
 .note-editor .note-editing-area .note-editable sup {
@@ -20801,9 +20797,7 @@ a.note-dropdown-item:hover {
 }
 
 .note-toolbar {
-    position: absolute;
-    bottom: 21px;
-    left: 95px;
+    position: relative
 }
 
 .note-popover .popover-content,
@@ -27983,6 +27977,7 @@ html {
 
 body {
     background-color: var(--chat-page-primary-bg-color);
+    background-image: url(../files/backgrounds/chat_page_bg.jpg);
     background-size: cover;
     background-position: center;
     overflow-x: hidden;
@@ -28414,8 +28409,6 @@ input[type=file]::-webkit-file-upload-button {
         margin-left: 0px !important;
         animation-name: none !important
     }
-
-}
 }
 
 @media (max-width:767.98px) {
@@ -29917,8 +29910,7 @@ input[type=file]::-webkit-file-upload-button {
     flex-flow: column;
     display: flex;
     align-items: center;
-    justify-content: center;
-    cursor: pointer
+    justify-content: center
 }
 
 .main .middle>.content>.welcome_screen>.contents {
@@ -29927,6 +29919,10 @@ input[type=file]::-webkit-file-upload-button {
 
 .main .middle>.content>.welcome_screen>.contents>div {
     padding: 0 15%
+}
+
+.main .middle>.content>.welcome_screen>.contents>div>.image>img {
+    max-width: 200px
 }
 
 .main .middle>.content>.welcome_screen>.contents>div>.text {
@@ -31074,13 +31070,11 @@ input[type=file]::-webkit-file-upload-button {
 
 .main .chatbox>.contents>.chat_messages>ul>li>div>.right>.content>div>.message_content a {
     color: var(--chat-window-undenary-text-color);
-    text-decoration: none;
-    cursor: pointer
+    text-decoration: none
 }
 
 .main .chatbox>.contents>.chat_messages>ul>li.own_message>div>.right>.content>div>.message_content a {
-    color: var(--chat-window-duodenary-text-color);
-    cursor: pointer
+    color: var(--chat-window-duodenary-text-color)
 }
 
 .main .chatbox>.contents>.chat_messages>ul>li>div>.right>.content>div>.message_content>p {
@@ -31180,16 +31174,12 @@ input[type=file]::-webkit-file-upload-button {
     margin: 0;
     list-style: none;
     padding: 0;
-    display: flex;
-    flex-direction: column-reverse;
-    flex-wrap: nowrap;
-    justify-content: space-around;
-    align-items: center;
-    justify-content: flex-start;
+    display: inline-flex;
     vertical-align: middle;
     background: var(--chat-window-secondary-bg-color);
-    border-radius: 20px;
-    padding: 6px 8px
+    border-radius: 5px;
+    padding: 6px 8px;
+    border: 1px solid var(--chat-window-primary-border-color)
 }
 
 .main .chatbox>.contents>.chat_messages .message_reactions>.selection>ul>li.processing {
@@ -31202,10 +31192,8 @@ input[type=file]::-webkit-file-upload-button {
 }
 
 .main .chatbox>.contents>.chat_messages .message_reactions>.selection>ul>li {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    margin-top: 6px
+    display: inline-flex;
+    margin-right: 6px
 }
 
 .main .chatbox>.contents>.chat_messages .message_reactions>.selection>ul>li:last-child {
@@ -31246,7 +31234,8 @@ input[type=file]::-webkit-file-upload-button {
     margin: 0;
     list-style: none;
     padding: 0;
-    display: block
+    display: inline-block;
+    vertical-align: middle
 }
 
 .main .chatbox>.contents>.chat_messages .message_reactions>.reactions>ul>li {
@@ -31255,7 +31244,8 @@ input[type=file]::-webkit-file-upload-button {
 }
 
 .main .chatbox>.contents>.chat_messages .message_reactions>.reactions>ul>li>span {
-    display: inline-block
+    display: inline-block;
+    vertical-align: middle
 }
 
 .main .chatbox>.contents>.chat_messages .message_reactions>.reactions>ul>li>.reaction {
@@ -31386,9 +31376,8 @@ input[type=file]::-webkit-file-upload-button {
     border-radius: 100%;
     color: var(--chat-window-secondary-text-color);
     font-size: var(--chat-window-septenary-font-size);
-    width: 29px;
-    height: 30px;
-    margin-top: 15px;
+    width: 45px;
+    height: 45px;
     display: flex;
     align-items: center;
     justify-content: center
@@ -31494,8 +31483,7 @@ input[type=file]::-webkit-file-upload-button {
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: 1;
-    cursor: pointer
+    z-index: 1
 }
 
 .main .chatbox>.background_image>img {
@@ -31554,9 +31542,7 @@ input[type=file]::-webkit-file-upload-button {
     flex-direction: column-reverse;
     margin: 0;
     padding: 0;
-    justify-content: center;
-    color: var(--chat-window-primary-text-color);
-    margin-bottom:35px;
+    color: var(--chat-window-primary-text-color)
 }
 
 .main .chatbox>.contents>.chat_messages>ul>li.align_right>div>.right>.header {
@@ -35158,8 +35144,6 @@ input[type="color"]::-webkit-color-swatch {
         height: 50px
     }
 
-    bottom:33px;
-
     .main .chatbox>.footer>.editor .send_message_button>div {
         margin-bottom: 21px
     }
@@ -35276,16 +35260,13 @@ input[type="color"]::-webkit-color-swatch {
     }
 
     .message_editor .note-editor.note-frame .note-editing-area .note-editable {
-        padding: 10px;
-        
+        padding: 10px
     }
 
     .main .chatbox>.footer>.editor .send_message_button>div>span {
-        margin-top: -25px !important;
-        margin-left: 2px;
-        border-radius: 46px;
-        width: 21px;
-        height: 21px;
+        border-radius: 5px;
+        width: 40px;
+        height: 40px
     }
 
     .main .chatbox>.footer>.editor .send_message_button>div {
@@ -35897,46 +35878,7 @@ body.dark_mode *::-webkit-scrollbar-thumb {
     border: 3px solid #191b1e
 }
 
-.reactions {
-    display: flex;
-    display: flex;
-    flex-direction: column-reverse;
-    flex-wrap: nowrap;
-    justify-content: flex-start;
-    align-items: center;
-    align-content: flex-end
-}
-
-.message_reactions {
-    padding-left: auto;
-    padding-down: 10px
-}
-
-i.iconic_plus {
-    background: linear-gradient(135deg, #f0344f 25%, #e3267a 49%, #ce04df 86%)
-}
-
-i.iconic_plus:hover {
-    transition: 1s ease-in-out;
-    background: #4F95DA
-}
-
-i.iconic_plus:hover svg {
-    stroke-dashoffset: -480
-}
-
-svg {
-    position: absolute;
-    left: 0;
-    top: 0;
-    fill: none;
-    stroke: #fff;
-    stroke-dasharray: 150 480;
-    stroke-dashoffset: 150;
-    transition: 1s ease-in-out
-}
-
-<svg width="180px"height="60px"viewBox="0 0 180 60"class="border"><polyline points="179,1 179,59 1,59 1,1 179,1"class="bg-line"/><polyline points="179,1 179,59 1,59 1,1 179,1"class="hl-line"/></svg>.slide-top {
+.slide-top {
     -webkit-animation: slide-top 0.5s cubic-bezier(.25, .46, .45, .94) both;
     animation: slide-top 0.5s cubic-bezier(.25, .46, .45, .94) both
 }
@@ -35965,30 +35907,15 @@ svg {
     }
 }
 
-.main .chatbox>.header>.heading>.title {
-    margin-left: auto;
-    background: linear-gradient(to right, #86e876, #f0f25c);
-    font-weight: 700;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    display: block;
-    font-size: var(--chat-window-secondary-font-size)
-}
-
-.rtl_language .main .go_back_icon {
-    margin-right: 0;
-    margin-left: 10px
-}
-
 .main .side_navigation>.top {
-    background: #517da2;
+    background: #5a8ebd;
     padding: 5px 15px;
     text-align: center;
     font-weight: 600;
     min-height: 125px;
     max-height: 140px;
     position: relative;
-    z-index: 2;
+    z-index: 7;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -36019,7 +35946,7 @@ svg {
 
     .rtl_language .main .chat_page_container.show_navigation {
         padding-left: 0;
-        padding-right: 200px
+        padding-right: 220px
     }
 }
 
@@ -36037,18 +35964,19 @@ span.topsearch {
     font-weight: 600;
     max-height: 120px;
     min-height: 60px;
+    position: relative;
     z-index: 7;
     display: flex;
     align-items: center;
     width: 100%;
     flex: 1 0 auto;
     background: #517da2;
-    border-bottom: 1px solidvar(--chat-window-primary-border-color)
+    border-bottom: 1pxsolidvar(--chat-window-primary-border-color)
 }
 
 .main .chatbox>.header>.heading>.title {
     margin-left: auto;
-    background: linear-gradient(to right, #86e876, #f0f25c);
+    background: linear-gradient(to right, #f7f9fb, #f7f9fb);
     font-weight: 700;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -36061,262 +35989,10 @@ span.topsearch {
     margin-left: 10px
 }
 
-.main .chatbox>.header>.heading>.view_info {
-    display: none;
-    font-size: var(--chat-window-tertiary-font-size);
-    color: #00000;
-    word-break: break-all;
-    font-weight: 300
-}
-
 .main .go_back_icon>span>i {
     display: inline-flex;
     align-items: center;
     vertical-align: middle;
     height: 100%;
     color: #fff
-}
-
-i.iconic_men .text-white:hover {
-    position: relative;
-    background-color: #fff;
-    @include border-radius(10px);
-    @include transition(.4s);
-    position: absolute;
-
-    &:nth-of-type(1) {
-        top: 15px;
-        @include transition(top 0.3s ease .3s, transform .3s ease-out .1s);
-        @include animation(mrotr 2s cubic-bezier(.5, .2, .2, 1.01))
-    }
-
-    &:nth-of-type(2) {
-        top: 30px;
-        @include transition(0.3s ease .3s);
-        @include animation(fade 2s cubic-bezier(.5, .2, .2, 1.01))
-    }
-
-    &:nth-of-type(3) {
-        top: 45px;
-        @include transition(top 0.3s ease .3s, transform .3s ease-out .1s);
-        @include animation(mrotl 2s cubic-bezier(.5, .2, .2, 1.01))
-    }
-}
-
-.menu:hover {
-    .bar {
-        &:nth-of-type(1) {
-            top: 30px;
-            @include rotate(45deg);
-            @include transition(top 0.3s ease .1s, transform .3s ease-out .5s)
-        }
-
-        &:nth-of-type(2) {
-            opacity: 0
-        }
-
-        &:nth-of-type(3) {
-            top: 30px;
-            @include rotate(-45deg);
-            @include transition(top 0.3s ease .1s, transform .3s ease-out .5s)
-        }
-    }
-}
-
-span .options .prevent_default {
-    z-index: -37
-}
-
-i.iconic_three-dots::before {
-    z-index: -37;
-    margin-right: 2px;
-    transform: scale(1, 1)
-}
-
-.main.aside>.site_records>.records>.list>li>div>.right>.options>i {
-    position: absolute;
-    transform: scale(1, 1);
-    z-index: -7
-}
-
-.options .prevent_default::before {
-    animation: jump 1s linear infinite
-}
-
-@keyframes jump {
-    0% {
-        margin-top: 0
-    }
-
-    35% {
-        margin-top: -75px
-    }
-
-    70% {
-        margin-top: 0
-    }
-}
-
-ul.prevent_default {
-    border-radius: 10px;
-    text-align: right;
-    z-index: 7
-}
-
-.prevent_default {
-    cursor: pointer;
-    display: block;
-    animation: rotateMenu 400ms ease-in-out;
-    transform-origin: top center
-}
-
-@keyframes rotateMenu {
-    0% {
-        transform: rotateX(-90deg)
-    }
-
-    70% {
-        transform: rotateX(20deg)
-    }
-
-    100% {
-        transform: rotateX(0deg)
-    }
-}
-
-.dropdown_list {
-    border-radius: 10px;
-    animation: growDown 300ms ease-in-out forwards;
-    transform-origin: top center
-}
-
-@keyframes growDown {
-    0% {
-        transform: scaleY(0)
-    }
-
-    80% {
-        transform: scaleY(1.1)
-    }
-
-    100% {
-        transform: scaleY(1)
-    }
-}
-
-.main .info_panel>.controls>div>.options>.dropdown_list {
-    left: -10%;
-    transform: translate(-50%, 0);
-    margin-top: 0;
-    background: var(--info-panel-primary-bg-color);
-    border-radius: 7px;
-    color: var(--info-panel-secondary-text-color);
-    max-width: 180px
-}
-
-.main .chatbox>.contents>.chat_messages .message_reactions>.selection>ul {
-    flex-direction: inherit !important
-}
-
-.reaction {
-    margin-left: 6px
-}
-
-.main .aside>.site_records>.current_record>.title>div>span {
-    font-size: var(--left-side-content-tertiary-font-size);
-    color: var(--left-side-content-tertiary-text-color);
-    vertical-align: middle;
-    font-weight: 600;
-    background: linear-gradient(135deg, #ff051d 25%, #ff08b3 49%, #cc3af1 86%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-weight: 700
-}
-
-.main .formbox>.fields>div>form>.formdata>.field>.checkbox>label>.checkbox>input:checked~.checkmark {
-    background-color: #2000FF;
-    border: 2px solid #C4C1C1
-}
-
-.entry_box>div>.top>.logo {
-    background: #517da2;
-    border-bottom: 1px solid #ff00f7;
-    padding: 15px 20px;
-    text-align: center
-}
-
-.addBtn {
-    padding: 0;
-    color: white;
-    border-radius: 35px;
-    background: linear-gradient(135deg, #f0344f 25%, #e3267a 49%, #ce04df 86%);
-    border: none;
-    position: absolute;
-    z-index: 3;
-    left: 22px;
-    bottom: 19px;
-    width: 22px;
-    height: 22px;
-}
-.chat-message > ul {
-    margin-bottom: 34px;
-}
-@media screen and (max-width: 770.98px) {
-    .addBtn {
-        padding: 0;
-        color: white;
-        border-radius: 25px;
-        background: linear-gradient(135deg, #f0344f 25%, #e3267a 49%, #ce04df 86%);
-        border: none;
-        position: absolute;
-        z-index: 3;
-        left: 30px;
-        bottom: 25px;
-    }
-
-    .main .chatbox>.footer>.editor .send_message_button>div>span {
-        /* margin-top: -21px; */
-        border-radius: 46px;
-        width: 23px;
-        height: 24px;
-    }
-}
-
-@media screen and (max-width: 380px) {
-    .note-toolbar {
-        position: absolute;
-        top: -53px;
-        bottom: 21px;
-        left: 42px;
-    }
-    .addBtn {
-        padding: 0;
-        color: white;
-        border-radius: 25px;
-        background: linear-gradient(135deg, #f0344f 25%, #e3267a 49%, #ce04df 86%);
-        border: none;
-        position: absolute;
-        z-index: 3;
-        left: 22px;
-        bottom: 24px;
-    }
-
-    .main .chatbox>.footer>.editor .send_message_button>div>span {
-        margin-top: 21px;
-    }
-}
-
-@media screen and (max-width: 770.98px)
-{
-
-    .message_editor .note-toolbar {
-        text-align: center;
-        margin-left: -50px;
-    }
-}
-
-@media only screen and (min-width: 380px) and (max-width: 500px){
-    .main .chatbox>.footer>.editor .send_message_button>div>span{
-        margin-top: -23px;
-    }
 }
