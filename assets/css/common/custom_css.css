@@ -1,0 +1,140 @@
+.slide-top {
+	-webkit-animation: slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+ @-webkit-keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(1);
+  }
+  100% {
+    -webkit-transform: translateY(-100px);
+            transform: translateY(-100px);
+  }
+}
+@keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(-100px);
+            transform: translateY(-100px);
+  }
+}
+
+.main .side_navigation>.top {
+    background: #5a8ebd;
+    padding: 5px 15px;
+    text-align: center;
+    font-weight: 600;
+    min-height: 125px;
+    max-height: 140px;
+    position: relative;
+    z-index: 7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex: 1 0 auto;
+    border-bottom: 1px solid var(--side-navigation-primary-border-color);
+}
+
+.main .side_navigation>.bottom {
+    border-top: 1px solid #dfdfdf;
+}
+
+@media only screen and (min-width: 1200px){
+.main .show_navigation>.side_navigation {
+    min-width: 220px;
+    max-width: 220px;
+    margin-left: -220px;
+}
+
+.main .chat_page_container.show_navigation {
+    padding-left: 220px;
+}
+
+.rtl_language .main .side_navigation {
+    margin-left: 0px;
+    margin-right: -220px;
+}
+
+
+.rtl_language  .main .chat_page_container.show_navigation {
+padding-left:0px;
+    padding-right: 220px;
+}
+}
+span.topsearch {
+    order: 3;
+}
+
+.main .aside>.head>.logo {
+    margin-right: auto;
+}
+
+
+
+
+
+
+
+
+.main .chatbox>.header {
+    padding: 5px 10px;
+    text-align: center;
+    font-weight: 600;
+    max-height: 120px;
+    min-height: 60px;
+    position: relative;
+    z-index: 7;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex: 1 0 auto;
+    background: #517da2;
+    border-bottom: 1pxsolidvar(--chat-window-primary-border-color);
+}
+
+
+
+.main .chatbox>.header>.heading>.title {
+    margin-left: auto;
+    background: linear-gradient(to right,#f7f9fb,#f7f9fb);
+    font-weight: bold;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: block;
+    font-size: var(--chat-window-secondary-font-size);
+}
+
+.rtl_language .main .go_back_icon {
+    margin-right: 0px;
+    margin-left: 10px;
+}
+
+
+
+
+
+.main .go_back_icon>span>i {
+ display:inline-flex;
+ align-items:center;
+ vertical-align:middle;
+ height:100%;
+ color: white
+;
+}
+
+
+
+
+
+
+
+
+
+
+
+
